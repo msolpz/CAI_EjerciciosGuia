@@ -1,0 +1,8 @@
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\bin\Debug\Ejercicio1_AgendaContacto.exe.config
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\bin\Debug\Ejercicio1_AgendaContacto.exe
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\bin\Debug\Ejercicio1_AgendaContacto.pdb
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\obj\Debug\Ejercicio1_AgendaContacto.csproj.AssemblyReference.cache
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\obj\Debug\Ejercicio1_AgendaContacto.csproj.SuggestedBindingRedirects.cache
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\obj\Debug\Ejercicio1_AgendaContacto.csproj.CoreCompileInputs.cache
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\obj\Debug\Ejercicio1_AgendaContacto.exe
+C:\Users\sollopez\Source\Repos\msolpz\CAI_EjerciciosGuia\ProyectoAgenda\Ejercicio1_AgendaContacto\obj\Debug\Ejercicio1_AgendaContacto.pdb

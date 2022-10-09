@@ -1,0 +1,8 @@
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\bin\Debug\PruebasPractica.exe.config
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\bin\Debug\PruebasPractica.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\bin\Debug\PruebasPractica.pdb
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\obj\Debug\PruebasPractica.csproj.AssemblyReference.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\obj\Debug\PruebasPractica.csproj.SuggestedBindingRedirects.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\obj\Debug\PruebasPractica.csproj.CoreCompileInputs.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\obj\Debug\PruebasPractica.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Practicando\PruebasPractica\obj\Debug\PruebasPractica.pdb

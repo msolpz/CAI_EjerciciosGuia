@@ -1,0 +1,11 @@
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.exe.config
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.pdb
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\Agenda_v1.Entidades.dll
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\Agenda_v1.Entidades.pdb
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\Agenda_v1.ConsolaInterfaz.csproj.AssemblyReference.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\Agenda_v1.ConsolaInterfaz.csproj.SuggestedBindingRedirects.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\Agenda_v1.ConsolaInterfaz.csproj.CoreCompileInputs.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\Agenda_v1.ConsolaInterfaz.csproj.CopyComplete
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.pdb

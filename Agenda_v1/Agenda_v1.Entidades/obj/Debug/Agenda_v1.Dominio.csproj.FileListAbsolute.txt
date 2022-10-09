@@ -1,0 +1,6 @@
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\bin\Debug\Agenda_v1.Entidades.dll
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\bin\Debug\Agenda_v1.Entidades.pdb
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\obj\Debug\Agenda_v1.Dominio.csproj.AssemblyReference.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\obj\Debug\Agenda_v1.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\obj\Debug\Agenda_v1.Entidades.dll
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\Agenda_v1.Entidades\obj\Debug\Agenda_v1.Entidades.pdb

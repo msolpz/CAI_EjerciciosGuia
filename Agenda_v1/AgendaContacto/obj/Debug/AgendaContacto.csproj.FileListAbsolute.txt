@@ -1,0 +1,8 @@
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.exe.config
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\bin\Debug\AgendaContacto.pdb
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.csproj.AssemblyReference.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.csproj.SuggestedBindingRedirects.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.csproj.CoreCompileInputs.cache
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.exe
+C:\Users\sollopez\source\repos\msolpz\CAI_EjerciciosGuia\Agenda_v1\AgendaContacto\obj\Debug\AgendaContacto.pdb
