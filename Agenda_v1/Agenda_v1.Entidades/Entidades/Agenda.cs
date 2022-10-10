@@ -8,18 +8,32 @@ using Agenda_v1.Dominio.Excepciones;
 
 namespace Agenda_v1.Dominio
 {
+    
     public class Agenda
     {
         private string _nombre;
         private string _tipo;
         private int _cantidadMaximaContactos;
         private List<Contacto> _contactos;
+        public static Agenda agenda;
 
         public string Nombre
         {
             get
             {
                 return _nombre;
+            }
+        }
+
+        public IEnumerable<Contacto> Contactos
+        {
+            get
+            {
+                return _contactos;
+            }
+            set
+            {
+                Contactos = value;
             }
         }
         public string Tipo
@@ -55,8 +69,11 @@ namespace Agenda_v1.Dominio
                 throw new Excepciones.AgendaCompletaEx.AgendaCompletaException();
             }
         }
+       
         public void EliminarContacto(int codigo) { }
         public Contacto TraerContactoFrecuente() { return null; }
+
+        
 
 
     }

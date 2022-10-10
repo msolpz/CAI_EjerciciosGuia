@@ -14,6 +14,8 @@ namespace Agenda_v1.ConsolaInterfaz
 {
     public class Program
     {
+        
+
         //es el punto de entrada a la app y el algoritmo que lo resuelve
 
         static void Main(string[] args)
@@ -22,31 +24,38 @@ namespace Agenda_v1.ConsolaInterfaz
 
             try
             {
+                Agenda a1 = new Agenda("Diario", "Electrónica", 5);
                 bool consolaActiva = true;
+                string opcionMenu;
 
                 while (consolaActiva)
                 {
-                    DesplegarMenu();
-                    string opcionMenu = Console.ReadLine();
-                    switch (opcionMenu)
+                    do
                     {
-                        case "1":
-                            //ListarContactos();
-                            break;
-                        case "2":
-                            AgregarContactos();
-                            break;
-                        case "3":
+                        DesplegarMenu();
+                        opcionMenu = Console.ReadLine();
+                        switch (opcionMenu)
+                        {
+                            case "1":
+                                Listar(Agenda.agenda);
+                                break;
+                            case "2":
+                                AgregarAgenda();
+                                break;
+                            case "3":
                             //EliminarContacto();
-                        case "4":
-                        //TraerContactoFrecuente;
-                        case "5":
-                            consolaActiva = false;
-                            break;
-                        default:
-                            break;
+                            case "4":
+                            //TraerContactoFrecuente;
+                            case "5":
+                                consolaActiva = false;
+                                break;
+                            default:
+                                break;
 
-                    }
+                        }
+                    } while (opcionMenu != "5");
+
+
                 }
             }
             catch (Exception ex)
@@ -54,7 +63,7 @@ namespace Agenda_v1.ConsolaInterfaz
                 Console.WriteLine("Se ha producido un error. Detalle: " + ex.Message);
             }
             finally
-            {
+            {             
                 Console.WriteLine("Presione una tecla para salir.");
                 Console.ReadLine();
             }
@@ -64,21 +73,27 @@ namespace Agenda_v1.ConsolaInterfaz
         public static void DesplegarMenu()
         {
             Console.WriteLine("Hola!");
-            Console.WriteLine("Elija una opción");
+            Console.WriteLine("Elija una opción (número): " + System.Environment.NewLine +
+                "1- Listar Contactos de la agenda." + System.Environment.NewLine +
+                "2- Agregar Contactos a la agenda." + System.Environment.NewLine +
+                "3- Eliminar Contactos." + System.Environment.NewLine +
+                "4- Traer Contacto Frecuente." + System.Environment.NewLine +
+                "5- Salir.");
         }
 
-        public static void AgregarContactos()
+        
+        public static void AgregarContactos(Agenda agenda)
         {
-            Agenda a1 = new Agenda("Diario", "Electrónica", 5);
             
+            
+
             bool flag = false;
             //bool repetir = false;
 
-            for (int codigo = 1; codigo <= a1.CantidadMaxRegistros; codigo++)
-            {
+            int codigo = agenda.CantidadRegistros() + 1;
 
                // do
-                //{
+               //{
                     string nombre;
                     string apellido;
                     string telefono;
@@ -128,7 +143,7 @@ namespace Agenda_v1.ConsolaInterfaz
 
 
                     Contacto c = new Contacto(codigo, nombre, apellido, telefono, direccion, fechaNacimiento);
-                    a1.AgregarContacto(c);
+                    agenda.AgregarContacto(c);
 
 
                    // Console.WriteLine("Desea agregar otro contacto? Marque 1 para 'SI' u otra tecla para 'NO'.");
@@ -145,10 +160,60 @@ namespace Agenda_v1.ConsolaInterfaz
                 //} while (repetir == true);
 
 
-            }
+            
         }
 
+        public static void AgregarAgenda()
+        {
+            bool check;
+            string nombreAgenda;
+            string tipo;
+            int maximo = 0;
 
+            do
+            {
+                Console.WriteLine("Ingrese el nombre de la agenda: ");
+                nombreAgenda = Console.ReadLine();
+                check = ValidarTexto(nombreAgenda);
+            } while (check == false);
+
+            do
+            {
+                check = false;
+                Console.WriteLine("Ingrese el tipo de la agenda: ");
+                tipo = Console.ReadLine();
+                check = ValidarTexto(tipo);
+            } while (check == false);
+
+            do
+            {
+                check = false;
+                Console.WriteLine("Ingrese el máximo de contactos de la agenda: ");
+                string numero = Console.ReadLine();
+                check = ValidarMaximo(numero, ref maximo);
+            } while (check == false);
+
+            Agenda agenda = new Agenda(nombreAgenda, tipo, maximo);
+
+            bool repetir;
+            do
+            {
+                Console.WriteLine("Desea agregar un contacto? Marque 1 para 'SI' u otra tecla para 'NO'.");
+                string respuesta = Console.ReadLine();
+                if (int.TryParse(respuesta, out int salida) && salida == 1)
+                {
+                    repetir = true;
+                    AgregarContactos(agenda);
+                }
+                else
+                {
+                    repetir = false;
+                }
+            } while (repetir != false);
+
+            
+
+        }
         private static bool ValidarNumero(string numero, ref int salida)
         {
             bool flag = false;
@@ -215,5 +280,43 @@ namespace Agenda_v1.ConsolaInterfaz
             return flag;
         }
 
+        private static bool ValidarMaximo(string numero, ref int maximo)
+        {
+            bool flag = false;
+
+
+            if (String.IsNullOrEmpty(numero) || String.IsNullOrWhiteSpace(numero))
+            {
+                Console.WriteLine("No ingresó números.");
+            }
+            else if (!int.TryParse(numero, out maximo))
+            {
+                Console.WriteLine("Usted debe ingresar un dato númerico.");
+            }
+            else if (Convert.ToInt32(numero) <= 0)
+            {
+                Console.WriteLine("No ingresó un número válido.");
+            }
+            else
+            {
+                flag = true;
+            }
+
+            return flag;
+        }
+
+        public static void Listar(Agenda agenda)
+        {
+
+            foreach (Contacto c in agenda.Contactos)
+            {
+                // Console.WriteLine(c.ToString());
+                Console.WriteLine($"{c.Nombre} - {c.Apellido} - {c.Telefono}");
+            }
+
+        }
+
+    
+            
     }
 }
